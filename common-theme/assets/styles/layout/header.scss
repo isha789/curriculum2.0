@@ -47,9 +47,19 @@
     );
   }
 }
-// post header height to other elements
+post header height to other elements
 :root {
   --header-height: calc(
     var(--theme-spacing--touchtarget) + calc(var(--theme-spacing--1) * 2)
   );
 }
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,19 @@
+// .is-dark-mode,
+// :root:has(.is-dark-mode) {
+//   @include dark-palette;
+// }
+:root {
+  --logo-fill-color: #000000; // black default
+}
+
 .is-dark-mode,
 :root:has(.is-dark-mode) {
   @include dark-palette;
+}
+
+@mixin dark-palette {
+  --logo-fill-color: #ffffff; // white in dark mode
+}
+.logo {
+  fill: var(--logo-fill-color);
 }

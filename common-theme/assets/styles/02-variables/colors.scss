@@ -52,7 +52,7 @@
 @mixin dark-palette {
   --hue: 270;
   --sat: 8%;
-  --lum: 20%;
+  --lum: 40%;
   --alpha: 0.99;
   --theme-color--ink: hsla(
     calc(var(--hue) * 1.1),
